@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página Web</title>
+    <!-- Inclua os arquivos CSS e JavaScript do Bootstrap aqui -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-3">
+      <h1>Minha Página Web</h1>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Início</a></li>
+          <li class="list-inline-item"><a href="#">Sobre</a></li>
+          <li class="list-inline-item"><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Corpo -->
+    <div class="container mt-4">
+      <section class="mb-4">
+        <h2>Seção 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
+          purus feugiat, pulvinar ipsum id, cursus ante.
+        </p>
+      </section>
+
+      <section class="mb-4">
+        <h2>Seção 2</h2>
+        <p>
+          Phasellus vel lectus vitae tortor lacinia dapibus non ac libero.
+          Vivamus eu fringilla arcu. Vivamus sed elit eu nisi cursus vehicula.
+        </p>
+      </section>
+
+      <section class="mb-4">
+        <h2>Seção 3</h2>
+        <p>
+          Proin quis lectus quis risus feugiat volutpat. Sed a felis quis purus
+          ornare laoreet. Suspendisse lacinia ipsum vel nunc eleifend tincidunt.
+        </p>
+      </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-2">
+      &copy;
+      <?php echo date("Y"); ?>
+      Minha Página Web 2023
+    </footer>
+  </body>
+</html>
